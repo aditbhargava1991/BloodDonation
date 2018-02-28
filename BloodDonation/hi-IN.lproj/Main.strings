@@ -1,0 +1,138 @@
+
+/* Class = "UIButton"; normalTitle = "Register As Doner"; ObjectID = "0dj-Sh-GAE"; */
+"0dj-Sh-GAE.normalTitle" = "Register As Doner";
+
+/* Class = "UIButton"; normalTitle = "Login with Email Address"; ObjectID = "20F-pc-445"; */
+"20F-pc-445.normalTitle" = "Login with Email Address";
+
+/* Class = "UILabel"; text = "5.5 Km"; ObjectID = "33q-cd-Vbm"; */
+"33q-cd-Vbm.text" = "5.5 Km";
+
+/* Class = "UITextField"; placeholder = "Last Donation Date (Optional)"; ObjectID = "3Ni-xP-eoj"; */
+"3Ni-xP-eoj.placeholder" = "Last Donation Date (Optional)";
+
+/* Class = "UITextField"; placeholder = "Full Name"; ObjectID = "4mA-MZ-cj3"; */
+"4mA-MZ-cj3.placeholder" = "Full Name";
+
+/* Class = "UIButton"; normalTitle = "Send Code"; ObjectID = "68l-Pe-HxG"; */
+"68l-Pe-HxG.normalTitle" = "Send Code";
+
+/* Class = "UITextField"; placeholder = "Blood Group"; ObjectID = "9AK-nS-ePW"; */
+"9AK-nS-ePW.placeholder" = "Blood Group";
+
+/* Class = "UITextField"; placeholder = "Full Name"; ObjectID = "BiE-ZQ-i7a"; */
+"BiE-ZQ-i7a.placeholder" = "Full Name";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "CIH-gV-1pA"; */
+"CIH-gV-1pA.placeholder" = "Password";
+
+/* Class = "UITextField"; placeholder = "Venue"; ObjectID = "Cob-My-Ccm"; */
+"Cob-My-Ccm.placeholder" = "Venue";
+
+/* Class = "UITextField"; placeholder = "City"; ObjectID = "Emk-Vj-lw6"; */
+"Emk-Vj-lw6.placeholder" = "City";
+
+/* Class = "UITabBarItem"; title = "My Requests"; ObjectID = "FtH-Pw-QgZ"; */
+"FtH-Pw-QgZ.title" = "My Requests";
+
+/* Class = "UITabBarItem"; title = "Campaign"; ObjectID = "Gp8-F4-mUx"; */
+"Gp8-F4-mUx.title" = "Campaign";
+
+/* Class = "UIButton"; normalTitle = "Request For Blood"; ObjectID = "IsQ-u9-OYR"; */
+"IsQ-u9-OYR.normalTitle" = "Request For Blood";
+
+/* Class = "UITextField"; placeholder = "Email Address"; ObjectID = "K8h-i8-zAB"; */
+"K8h-i8-zAB.placeholder" = "Email Address";
+
+/* Class = "UITextField"; placeholder = "Hospital"; ObjectID = "L96-Do-80V"; */
+"L96-Do-80V.placeholder" = "Hospital";
+
+/* Class = "UIButton"; normalTitle = "Request For Blood"; ObjectID = "Muh-IZ-ZWI"; */
+"Muh-IZ-ZWI.normalTitle" = "Request For Blood";
+
+/* Class = "UITabBarItem"; title = "Campaign"; ObjectID = "NWR-8D-bst"; */
+"NWR-8D-bst.title" = "Campaign";
+
+/* Class = "UITextField"; placeholder = "Mobile"; ObjectID = "OqH-j6-HLZ"; */
+"OqH-j6-HLZ.placeholder" = "Mobile";
+
+/* Class = "UITextField"; placeholder = "Full Name"; ObjectID = "PV3-s4-6iC"; */
+"PV3-s4-6iC.placeholder" = "Full Name";
+
+/* Class = "UITextField"; placeholder = "State"; ObjectID = "Pux-7C-C2Z"; */
+"Pux-7C-C2Z.placeholder" = "State";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "QJm-de-3fj"; */
+"QJm-de-3fj.normalTitle" = "Login";
+
+/* Class = "UILabel"; text = "Adit Bhargava"; ObjectID = "Qbm-Ec-EJn"; */
+"Qbm-Ec-EJn.text" = "Adit Bhargava";
+
+/* Class = "UINavigationItem"; title = "All Donors"; ObjectID = "Uwj-7h-tqu"; */
+"Uwj-7h-tqu.title" = "All Donors";
+
+/* Class = "UINavigationItem"; title = "Send Request"; ObjectID = "W2h-jd-9Vb"; */
+"W2h-jd-9Vb.title" = "Send Request";
+
+/* Class = "UITextField"; placeholder = "Verification Code"; ObjectID = "WJo-P1-IfE"; */
+"WJo-P1-IfE.placeholder" = "Verification Code";
+
+/* Class = "UITextField"; text = "1212"; ObjectID = "WJo-P1-IfE"; */
+"WJo-P1-IfE.text" = "1212";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "Wc1-HH-a9r"; */
+"Wc1-HH-a9r.placeholder" = "Password";
+
+/* Class = "UITextField"; placeholder = "Email Address"; ObjectID = "Xy6-aM-qT4"; */
+"Xy6-aM-qT4.placeholder" = "Email Address";
+
+/* Class = "UIButton"; normalTitle = "+91"; ObjectID = "cbc-zN-5VC"; */
+"cbc-zN-5VC.normalTitle" = "+91";
+
+/* Class = "UITextField"; placeholder = "No. Of Units"; ObjectID = "dOi-e3-r4k"; */
+"dOi-e3-r4k.placeholder" = "No. Of Units";
+
+/* Class = "UIButton"; normalTitle = "Register As Donor"; ObjectID = "fHR-eY-aGQ"; */
+"fHR-eY-aGQ.normalTitle" = "Register As Donor";
+
+/* Class = "UILabel"; text = "No Requests Yet"; ObjectID = "hOS-EK-uZp"; */
+"hOS-EK-uZp.text" = "No Requests Yet";
+
+/* Class = "UITextField"; placeholder = "Country"; ObjectID = "hen-7c-1Ic"; */
+"hen-7c-1Ic.placeholder" = "Country";
+
+/* Class = "UITextField"; placeholder = "Blood Group"; ObjectID = "iLU-q4-OeZ"; */
+"iLU-q4-OeZ.placeholder" = "Blood Group";
+
+/* Class = "UITextField"; placeholder = "Mobile Number"; ObjectID = "kTp-gb-isc"; */
+"kTp-gb-isc.placeholder" = "Mobile Number";
+
+/* Class = "UINavigationItem"; title = "Login"; ObjectID = "nFR-NS-dP9"; */
+"nFR-NS-dP9.title" = "Login";
+
+/* Class = "UINavigationItem"; title = "Registration"; ObjectID = "nVh-HM-Ew3"; */
+"nVh-HM-Ew3.title" = "Registration";
+
+/* Class = "UILabel"; text = "Donate Blood Today"; ObjectID = "od3-iH-aO2"; */
+"od3-iH-aO2.text" = "Donate Blood Today";
+
+/* Class = "UITextField"; placeholder = "Mobile"; ObjectID = "rX5-sa-X5R"; */
+"rX5-sa-X5R.placeholder" = "Mobile";
+
+/* Class = "UIButton"; normalTitle = "Login As Guest"; ObjectID = "tzY-Dc-AMI"; */
+"tzY-Dc-AMI.normalTitle" = "Login As Guest";
+
+/* Class = "UITextField"; placeholder = "Date And Time"; ObjectID = "uac-fx-fdd"; */
+"uac-fx-fdd.placeholder" = "Date And Time";
+
+/* Class = "UIButton"; normalTitle = "Request For Blood"; ObjectID = "wsX-wm-7Ww"; */
+"wsX-wm-7Ww.normalTitle" = "Request For Blood";
+
+/* Class = "UILabel"; text = "O+"; ObjectID = "yD1-3U-lwU"; */
+"yD1-3U-lwU.text" = "O+";
+
+/* Class = "UIButton"; normalTitle = "Start Campaign"; ObjectID = "yea-wG-HSz"; */
+"yea-wG-HSz.normalTitle" = "Start Campaign";
+
+/* Class = "UITabBarItem"; title = "All Donors"; ObjectID = "zgC-Zw-4uX"; */
+"zgC-Zw-4uX.title" = "All Donors";

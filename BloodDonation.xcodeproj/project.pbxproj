@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10D617AD402F3B5C86138D4E /* libPods-BloodDonation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB28DEA98A074AE46A683CD /* libPods-BloodDonation.a */; };
+		183AFEE41DDDE6FB00B6E0AC /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AFEE31DDDE6FB00B6E0AC /* RegisterViewController.m */; };
+		183AFEE71DDE203C00B6E0AC /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AFEE61DDE203C00B6E0AC /* LoginViewController.m */; };
+		183AFEEA1DDE252000B6E0AC /* AllDonorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AFEE91DDE252000B6E0AC /* AllDonorsViewController.m */; };
+		183AFEED1DDE253300B6E0AC /* DonorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AFEEC1DDE253300B6E0AC /* DonorTableViewCell.m */; };
+		183AFEF31DDE2B1300B6E0AC /* MyRequestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AFEF21DDE2B1300B6E0AC /* MyRequestsViewController.m */; };
+		183AFEF61DDEE0E700B6E0AC /* MyRequestsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AFEF51DDEE0E700B6E0AC /* MyRequestsTableViewCell.m */; };
+		183AFEF91DDEF34200B6E0AC /* CampaignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AFEF81DDEF34200B6E0AC /* CampaignViewController.m */; };
+		183AFEFC1DDF098300B6E0AC /* SendRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AFEFB1DDF098300B6E0AC /* SendRequestViewController.m */; };
+		183AFEFF1DDF783D00B6E0AC /* LoggedInUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AFEFE1DDF783D00B6E0AC /* LoggedInUser.m */; };
+		183AFF071DE0110300B6E0AC /* DonorMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AFF061DE0110300B6E0AC /* DonorMapViewController.m */; };
+		183AFF091DE0111300B6E0AC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183AFF081DE0111200B6E0AC /* MapKit.framework */; };
+		183AFF0B1DE0111900B6E0AC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183AFF0A1DE0111900B6E0AC /* CoreLocation.framework */; };
+		183AFF0E1DE0175A00B6E0AC /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183AFF0D1DE0175A00B6E0AC /* MoreViewController.m */; };
+		183AFF111DE1B5E200B6E0AC /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183AFF0F1DE1B5E200B6E0AC /* Messages.framework */; };
+		183AFF121DE1B5E200B6E0AC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183AFF101DE1B5E200B6E0AC /* MessageUI.framework */; };
+		184976101DDC23D900FDCAD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1849760F1DDC23D900FDCAD5 /* main.m */; };
+		184976131DDC23D900FDCAD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184976121DDC23D900FDCAD5 /* AppDelegate.m */; };
+		184976161DDC23D900FDCAD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184976151DDC23D900FDCAD5 /* ViewController.m */; };
+		184976191DDC23D900FDCAD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184976171DDC23D900FDCAD5 /* Main.storyboard */; };
+		1849761B1DDC23D900FDCAD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1849761A1DDC23D900FDCAD5 /* Assets.xcassets */; };
+		1849761E1DDC23D900FDCAD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1849761C1DDC23D900FDCAD5 /* LaunchScreen.storyboard */; };
+		184976291DDC23D900FDCAD5 /* BloodDonationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184976281DDC23D900FDCAD5 /* BloodDonationTests.m */; };
+		184976341DDC23D900FDCAD5 /* BloodDonationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184976331DDC23D900FDCAD5 /* BloodDonationUITests.m */; };
+		184976451DDC282E00FDCAD5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 184976471DDC282E00FDCAD5 /* Localizable.strings */; };
+		18D4CF841DE2D771005AB4FF /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D4CF821DE2D771005AB4FF /* Contacts.framework */; };
+		18D4CF851DE2D771005AB4FF /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D4CF831DE2D771005AB4FF /* ContactsUI.framework */; };
+		18D4CF881DE309F9005AB4FF /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D4CF871DE309F9005AB4FF /* ProfileViewController.m */; };
+		18D4CF8B1DE30A0D005AB4FF /* EditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D4CF8A1DE30A0D005AB4FF /* EditProfileViewController.m */; };
+		18DC67C61DE7F33C00BC4ACC /* RequestsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DC67C41DE7F33C00BC4ACC /* RequestsTableViewCell.m */; };
+		18DC67C71DE7F33C00BC4ACC /* RequestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DC67C51DE7F33C00BC4ACC /* RequestsViewController.m */; };
+		18EEF5C01DFBFB87001656A6 /* RegisterAsDonorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EEF5BF1DFBFB87001656A6 /* RegisterAsDonorViewController.m */; };
+		18F55AF41DE771B80088FF5B /* BloodRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F55AF31DE771B80088FF5B /* BloodRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184976251DDC23D900FDCAD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184976031DDC23D700FDCAD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1849760A1DDC23D800FDCAD5;
+			remoteInfo = BloodDonation;
+		};
+		184976301DDC23D900FDCAD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184976031DDC23D700FDCAD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1849760A1DDC23D800FDCAD5;
+			remoteInfo = BloodDonation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		183AFEE21DDDE6FB00B6E0AC /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		183AFEE31DDDE6FB00B6E0AC /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		183AFEE51DDE203C00B6E0AC /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		183AFEE61DDE203C00B6E0AC /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		183AFEE81DDE252000B6E0AC /* AllDonorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllDonorsViewController.h; sourceTree = "<group>"; };
+		183AFEE91DDE252000B6E0AC /* AllDonorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllDonorsViewController.m; sourceTree = "<group>"; };
+		183AFEEB1DDE253300B6E0AC /* DonorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonorTableViewCell.h; sourceTree = "<group>"; };
+		183AFEEC1DDE253300B6E0AC /* DonorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonorTableViewCell.m; sourceTree = "<group>"; };
+		183AFEF11DDE2B1300B6E0AC /* MyRequestsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRequestsViewController.h; sourceTree = "<group>"; };
+		183AFEF21DDE2B1300B6E0AC /* MyRequestsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRequestsViewController.m; sourceTree = "<group>"; };
+		183AFEF41DDEE0E700B6E0AC /* MyRequestsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRequestsTableViewCell.h; sourceTree = "<group>"; };
+		183AFEF51DDEE0E700B6E0AC /* MyRequestsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRequestsTableViewCell.m; sourceTree = "<group>"; };
+		183AFEF71DDEF34200B6E0AC /* CampaignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampaignViewController.h; sourceTree = "<group>"; };
+		183AFEF81DDEF34200B6E0AC /* CampaignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampaignViewController.m; sourceTree = "<group>"; };
+		183AFEFA1DDF098300B6E0AC /* SendRequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendRequestViewController.h; sourceTree = "<group>"; };
+		183AFEFB1DDF098300B6E0AC /* SendRequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendRequestViewController.m; sourceTree = "<group>"; };
+		183AFEFD1DDF783D00B6E0AC /* LoggedInUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggedInUser.h; sourceTree = "<group>"; };
+		183AFEFE1DDF783D00B6E0AC /* LoggedInUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggedInUser.m; sourceTree = "<group>"; };
+		183AFF021DDF7F9400B6E0AC /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/Main.strings"; sourceTree = "<group>"; };
+		183AFF041DDF7FCF00B6E0AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		183AFF051DE0110300B6E0AC /* DonorMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DonorMapViewController.h; sourceTree = "<group>"; };
+		183AFF061DE0110300B6E0AC /* DonorMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonorMapViewController.m; sourceTree = "<group>"; };
+		183AFF081DE0111200B6E0AC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		183AFF0A1DE0111900B6E0AC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		183AFF0C1DE0175A00B6E0AC /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		183AFF0D1DE0175A00B6E0AC /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		183AFF0F1DE1B5E200B6E0AC /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		183AFF101DE1B5E200B6E0AC /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		1849760B1DDC23D800FDCAD5 /* BloodDonation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloodDonation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1849760F1DDC23D900FDCAD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		184976111DDC23D900FDCAD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		184976121DDC23D900FDCAD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		184976141DDC23D900FDCAD5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		184976151DDC23D900FDCAD5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		184976181DDC23D900FDCAD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1849761A1DDC23D900FDCAD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1849761D1DDC23D900FDCAD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1849761F1DDC23D900FDCAD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184976241DDC23D900FDCAD5 /* BloodDonationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloodDonationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184976281DDC23D900FDCAD5 /* BloodDonationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BloodDonationTests.m; sourceTree = "<group>"; };
+		1849762A1DDC23D900FDCAD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1849762F1DDC23D900FDCAD5 /* BloodDonationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloodDonationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184976331DDC23D900FDCAD5 /* BloodDonationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BloodDonationUITests.m; sourceTree = "<group>"; };
+		184976351DDC23D900FDCAD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184976421DDC253000FDCAD5 /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		184976461DDC282E00FDCAD5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		184976481DDC283600FDCAD5 /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		18D4CF821DE2D771005AB4FF /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		18D4CF831DE2D771005AB4FF /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
+		18D4CF861DE309F9005AB4FF /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		18D4CF871DE309F9005AB4FF /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		18D4CF891DE30A0D005AB4FF /* EditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProfileViewController.h; sourceTree = "<group>"; };
+		18D4CF8A1DE30A0D005AB4FF /* EditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileViewController.m; sourceTree = "<group>"; };
+		18DC67C21DE7F33C00BC4ACC /* RequestsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestsTableViewCell.h; sourceTree = "<group>"; };
+		18DC67C31DE7F33C00BC4ACC /* RequestsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestsViewController.h; sourceTree = "<group>"; };
+		18DC67C41DE7F33C00BC4ACC /* RequestsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestsTableViewCell.m; sourceTree = "<group>"; };
+		18DC67C51DE7F33C00BC4ACC /* RequestsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestsViewController.m; sourceTree = "<group>"; };
+		18EEF5BE1DFBFB87001656A6 /* RegisterAsDonorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterAsDonorViewController.h; sourceTree = "<group>"; };
+		18EEF5BF1DFBFB87001656A6 /* RegisterAsDonorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterAsDonorViewController.m; sourceTree = "<group>"; };
+		18F55AF21DE771B80088FF5B /* BloodRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodRequest.h; sourceTree = "<group>"; };
+		18F55AF31DE771B80088FF5B /* BloodRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BloodRequest.m; sourceTree = "<group>"; };
+		7CB28DEA98A074AE46A683CD /* libPods-BloodDonation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BloodDonation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9A42EA7A12D3EB0CCBD973 /* Pods-BloodDonation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BloodDonation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BloodDonation/Pods-BloodDonation.debug.xcconfig"; sourceTree = "<group>"; };
+		DBDF8E770281578D3DD328E7 /* Pods-BloodDonation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BloodDonation.release.xcconfig"; path = "Pods/Target Support Files/Pods-BloodDonation/Pods-BloodDonation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184976081DDC23D800FDCAD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183AFF091DE0111300B6E0AC /* MapKit.framework in Frameworks */,
+				18D4CF841DE2D771005AB4FF /* Contacts.framework in Frameworks */,
+				18D4CF851DE2D771005AB4FF /* ContactsUI.framework in Frameworks */,
+				183AFF111DE1B5E200B6E0AC /* Messages.framework in Frameworks */,
+				183AFF121DE1B5E200B6E0AC /* MessageUI.framework in Frameworks */,
+				183AFF0B1DE0111900B6E0AC /* CoreLocation.framework in Frameworks */,
+				10D617AD402F3B5C86138D4E /* libPods-BloodDonation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184976211DDC23D900FDCAD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1849762C1DDC23D900FDCAD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183AFF001DDF784700B6E0AC /* Object Files */ = {
+			isa = PBXGroup;
+			children = (
+				183AFEFD1DDF783D00B6E0AC /* LoggedInUser.h */,
+				183AFEFE1DDF783D00B6E0AC /* LoggedInUser.m */,
+				18F55AF21DE771B80088FF5B /* BloodRequest.h */,
+				18F55AF31DE771B80088FF5B /* BloodRequest.m */,
+			);
+			name = "Object Files";
+			sourceTree = "<group>";
+		};
+		184976021DDC23D700FDCAD5 = {
+			isa = PBXGroup;
+			children = (
+				1849760D1DDC23D800FDCAD5 /* BloodDonation */,
+				184976271DDC23D900FDCAD5 /* BloodDonationTests */,
+				184976321DDC23D900FDCAD5 /* BloodDonationUITests */,
+				1849760C1DDC23D800FDCAD5 /* Products */,
+				FEA9AB1680858A9E4AD0BD34 /* Pods */,
+				3F8593EFA5D55A8BA9895C96 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1849760C1DDC23D800FDCAD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1849760B1DDC23D800FDCAD5 /* BloodDonation.app */,
+				184976241DDC23D900FDCAD5 /* BloodDonationTests.xctest */,
+				1849762F1DDC23D900FDCAD5 /* BloodDonationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1849760D1DDC23D800FDCAD5 /* BloodDonation */ = {
+			isa = PBXGroup;
+			children = (
+				18EEF5C71DFD15DD001656A6 /* old files */,
+				184976111DDC23D900FDCAD5 /* AppDelegate.h */,
+				184976121DDC23D900FDCAD5 /* AppDelegate.m */,
+				184976141DDC23D900FDCAD5 /* ViewController.h */,
+				184976151DDC23D900FDCAD5 /* ViewController.m */,
+				183AFEE51DDE203C00B6E0AC /* LoginViewController.h */,
+				183AFEE61DDE203C00B6E0AC /* LoginViewController.m */,
+				18EEF5BE1DFBFB87001656A6 /* RegisterAsDonorViewController.h */,
+				18EEF5BF1DFBFB87001656A6 /* RegisterAsDonorViewController.m */,
+				18DC67C21DE7F33C00BC4ACC /* RequestsTableViewCell.h */,
+				18DC67C41DE7F33C00BC4ACC /* RequestsTableViewCell.m */,
+				18DC67C31DE7F33C00BC4ACC /* RequestsViewController.h */,
+				18DC67C51DE7F33C00BC4ACC /* RequestsViewController.m */,
+				183AFEF11DDE2B1300B6E0AC /* MyRequestsViewController.h */,
+				183AFEF21DDE2B1300B6E0AC /* MyRequestsViewController.m */,
+				183AFEF41DDEE0E700B6E0AC /* MyRequestsTableViewCell.h */,
+				183AFEF51DDEE0E700B6E0AC /* MyRequestsTableViewCell.m */,
+				183AFEFA1DDF098300B6E0AC /* SendRequestViewController.h */,
+				183AFEFB1DDF098300B6E0AC /* SendRequestViewController.m */,
+				183AFEE81DDE252000B6E0AC /* AllDonorsViewController.h */,
+				183AFEE91DDE252000B6E0AC /* AllDonorsViewController.m */,
+				183AFEEB1DDE253300B6E0AC /* DonorTableViewCell.h */,
+				183AFEEC1DDE253300B6E0AC /* DonorTableViewCell.m */,
+				183AFF051DE0110300B6E0AC /* DonorMapViewController.h */,
+				183AFF061DE0110300B6E0AC /* DonorMapViewController.m */,
+				183AFEF71DDEF34200B6E0AC /* CampaignViewController.h */,
+				183AFEF81DDEF34200B6E0AC /* CampaignViewController.m */,
+				183AFF0C1DE0175A00B6E0AC /* MoreViewController.h */,
+				183AFF0D1DE0175A00B6E0AC /* MoreViewController.m */,
+				18D4CF861DE309F9005AB4FF /* ProfileViewController.h */,
+				18D4CF871DE309F9005AB4FF /* ProfileViewController.m */,
+				18D4CF891DE30A0D005AB4FF /* EditProfileViewController.h */,
+				18D4CF8A1DE30A0D005AB4FF /* EditProfileViewController.m */,
+				184976171DDC23D900FDCAD5 /* Main.storyboard */,
+				1849761A1DDC23D900FDCAD5 /* Assets.xcassets */,
+				1849761C1DDC23D900FDCAD5 /* LaunchScreen.storyboard */,
+				1849761F1DDC23D900FDCAD5 /* Info.plist */,
+				184976471DDC282E00FDCAD5 /* Localizable.strings */,
+				1849760E1DDC23D900FDCAD5 /* Supporting Files */,
+				183AFF001DDF784700B6E0AC /* Object Files */,
+			);
+			path = BloodDonation;
+			sourceTree = "<group>";
+		};
+		1849760E1DDC23D900FDCAD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1849760F1DDC23D900FDCAD5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		184976271DDC23D900FDCAD5 /* BloodDonationTests */ = {
+			isa = PBXGroup;
+			children = (
+				184976281DDC23D900FDCAD5 /* BloodDonationTests.m */,
+				1849762A1DDC23D900FDCAD5 /* Info.plist */,
+			);
+			path = BloodDonationTests;
+			sourceTree = "<group>";
+		};
+		184976321DDC23D900FDCAD5 /* BloodDonationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				184976331DDC23D900FDCAD5 /* BloodDonationUITests.m */,
+				184976351DDC23D900FDCAD5 /* Info.plist */,
+			);
+			path = BloodDonationUITests;
+			sourceTree = "<group>";
+		};
+		18EEF5C71DFD15DD001656A6 /* old files */ = {
+			isa = PBXGroup;
+			children = (
+				183AFEE21DDDE6FB00B6E0AC /* RegisterViewController.h */,
+				183AFEE31DDDE6FB00B6E0AC /* RegisterViewController.m */,
+			);
+			name = "old files";
+			sourceTree = "<group>";
+		};
+		3F8593EFA5D55A8BA9895C96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18D4CF821DE2D771005AB4FF /* Contacts.framework */,
+				18D4CF831DE2D771005AB4FF /* ContactsUI.framework */,
+				183AFF0F1DE1B5E200B6E0AC /* Messages.framework */,
+				183AFF101DE1B5E200B6E0AC /* MessageUI.framework */,
+				183AFF0A1DE0111900B6E0AC /* CoreLocation.framework */,
+				183AFF081DE0111200B6E0AC /* MapKit.framework */,
+				7CB28DEA98A074AE46A683CD /* libPods-BloodDonation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEA9AB1680858A9E4AD0BD34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE9A42EA7A12D3EB0CCBD973 /* Pods-BloodDonation.debug.xcconfig */,
+				DBDF8E770281578D3DD328E7 /* Pods-BloodDonation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1849760A1DDC23D800FDCAD5 /* BloodDonation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184976381DDC23D900FDCAD5 /* Build configuration list for PBXNativeTarget "BloodDonation" */;
+			buildPhases = (
+				078C4909AD4A2969D3E89C90 /* [CP] Check Pods Manifest.lock */,
+				184976071DDC23D800FDCAD5 /* Sources */,
+				184976081DDC23D800FDCAD5 /* Frameworks */,
+				184976091DDC23D800FDCAD5 /* Resources */,
+				E24C9413D816A282A3223CF2 /* [CP] Embed Pods Frameworks */,
+				86B8222F6736AB40A51C18D2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BloodDonation;
+			productName = BloodDonation;
+			productReference = 1849760B1DDC23D800FDCAD5 /* BloodDonation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		184976231DDC23D900FDCAD5 /* BloodDonationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1849763B1DDC23D900FDCAD5 /* Build configuration list for PBXNativeTarget "BloodDonationTests" */;
+			buildPhases = (
+				184976201DDC23D900FDCAD5 /* Sources */,
+				184976211DDC23D900FDCAD5 /* Frameworks */,
+				184976221DDC23D900FDCAD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184976261DDC23D900FDCAD5 /* PBXTargetDependency */,
+			);
+			name = BloodDonationTests;
+			productName = BloodDonationTests;
+			productReference = 184976241DDC23D900FDCAD5 /* BloodDonationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1849762E1DDC23D900FDCAD5 /* BloodDonationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1849763E1DDC23D900FDCAD5 /* Build configuration list for PBXNativeTarget "BloodDonationUITests" */;
+			buildPhases = (
+				1849762B1DDC23D900FDCAD5 /* Sources */,
+				1849762C1DDC23D900FDCAD5 /* Frameworks */,
+				1849762D1DDC23D900FDCAD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184976311DDC23D900FDCAD5 /* PBXTargetDependency */,
+			);
+			name = BloodDonationUITests;
+			productName = BloodDonationUITests;
+			productReference = 1849762F1DDC23D900FDCAD5 /* BloodDonationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184976031DDC23D700FDCAD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					1849760A1DDC23D800FDCAD5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = CH23EH49FR;
+						ProvisioningStyle = Automatic;
+					};
+					184976231DDC23D900FDCAD5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = CH23EH49FR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1849760A1DDC23D800FDCAD5;
+					};
+					1849762E1DDC23D900FDCAD5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = CH23EH49FR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1849760A1DDC23D800FDCAD5;
+					};
+				};
+			};
+			buildConfigurationList = 184976061DDC23D800FDCAD5 /* Build configuration list for PBXProject "BloodDonation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"hi-IN",
+			);
+			mainGroup = 184976021DDC23D700FDCAD5;
+			productRefGroup = 1849760C1DDC23D800FDCAD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1849760A1DDC23D800FDCAD5 /* BloodDonation */,
+				184976231DDC23D900FDCAD5 /* BloodDonationTests */,
+				1849762E1DDC23D900FDCAD5 /* BloodDonationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184976091DDC23D800FDCAD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1849761E1DDC23D900FDCAD5 /* LaunchScreen.storyboard in Resources */,
+				184976451DDC282E00FDCAD5 /* Localizable.strings in Resources */,
+				1849761B1DDC23D900FDCAD5 /* Assets.xcassets in Resources */,
+				184976191DDC23D900FDCAD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184976221DDC23D900FDCAD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1849762D1DDC23D900FDCAD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		078C4909AD4A2969D3E89C90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86B8222F6736AB40A51C18D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BloodDonation/Pods-BloodDonation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E24C9413D816A282A3223CF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BloodDonation/Pods-BloodDonation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184976071DDC23D800FDCAD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184976161DDC23D900FDCAD5 /* ViewController.m in Sources */,
+				183AFEF61DDEE0E700B6E0AC /* MyRequestsTableViewCell.m in Sources */,
+				184976131DDC23D900FDCAD5 /* AppDelegate.m in Sources */,
+				184976101DDC23D900FDCAD5 /* main.m in Sources */,
+				18D4CF881DE309F9005AB4FF /* ProfileViewController.m in Sources */,
+				18DC67C61DE7F33C00BC4ACC /* RequestsTableViewCell.m in Sources */,
+				18DC67C71DE7F33C00BC4ACC /* RequestsViewController.m in Sources */,
+				183AFEF31DDE2B1300B6E0AC /* MyRequestsViewController.m in Sources */,
+				183AFF0E1DE0175A00B6E0AC /* MoreViewController.m in Sources */,
+				18F55AF41DE771B80088FF5B /* BloodRequest.m in Sources */,
+				183AFEE41DDDE6FB00B6E0AC /* RegisterViewController.m in Sources */,
+				183AFEF91DDEF34200B6E0AC /* CampaignViewController.m in Sources */,
+				18EEF5C01DFBFB87001656A6 /* RegisterAsDonorViewController.m in Sources */,
+				183AFF071DE0110300B6E0AC /* DonorMapViewController.m in Sources */,
+				183AFEE71DDE203C00B6E0AC /* LoginViewController.m in Sources */,
+				183AFEED1DDE253300B6E0AC /* DonorTableViewCell.m in Sources */,
+				18D4CF8B1DE30A0D005AB4FF /* EditProfileViewController.m in Sources */,
+				183AFEFF1DDF783D00B6E0AC /* LoggedInUser.m in Sources */,
+				183AFEEA1DDE252000B6E0AC /* AllDonorsViewController.m in Sources */,
+				183AFEFC1DDF098300B6E0AC /* SendRequestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184976201DDC23D900FDCAD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184976291DDC23D900FDCAD5 /* BloodDonationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1849762B1DDC23D900FDCAD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184976341DDC23D900FDCAD5 /* BloodDonationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		184976261DDC23D900FDCAD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1849760A1DDC23D800FDCAD5 /* BloodDonation */;
+			targetProxy = 184976251DDC23D900FDCAD5 /* PBXContainerItemProxy */;
+		};
+		184976311DDC23D900FDCAD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1849760A1DDC23D800FDCAD5 /* BloodDonation */;
+			targetProxy = 184976301DDC23D900FDCAD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		184976171DDC23D900FDCAD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184976181DDC23D900FDCAD5 /* Base */,
+				183AFF021DDF7F9400B6E0AC /* hi-IN */,
+				183AFF041DDF7FCF00B6E0AC /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1849761C1DDC23D900FDCAD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1849761D1DDC23D900FDCAD5 /* Base */,
+				184976421DDC253000FDCAD5 /* hi-IN */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		184976471DDC282E00FDCAD5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184976461DDC282E00FDCAD5 /* en */,
+				184976481DDC283600FDCAD5 /* hi-IN */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184976361DDC23D900FDCAD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		184976371DDC23D900FDCAD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184976391DDC23D900FDCAD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE9A42EA7A12D3EB0CCBD973 /* Pods-BloodDonation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Adit Bhargava (CH23EH49FR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BloodDonation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.d3ios.donateblood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		1849763A1DDC23D900FDCAD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBDF8E770281578D3DD328E7 /* Pods-BloodDonation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Adit Bhargava (CH23EH49FR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BloodDonation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.d3ios.donateblood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		1849763C1DDC23D900FDCAD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CH23EH49FR;
+				INFOPLIST_FILE = BloodDonationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "d3-softwares.BloodDonationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloodDonation.app/BloodDonation";
+			};
+			name = Debug;
+		};
+		1849763D1DDC23D900FDCAD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CH23EH49FR;
+				INFOPLIST_FILE = BloodDonationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "d3-softwares.BloodDonationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloodDonation.app/BloodDonation";
+			};
+			name = Release;
+		};
+		1849763F1DDC23D900FDCAD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CH23EH49FR;
+				INFOPLIST_FILE = BloodDonationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "d3-softwares.BloodDonationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BloodDonation;
+			};
+			name = Debug;
+		};
+		184976401DDC23D900FDCAD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CH23EH49FR;
+				INFOPLIST_FILE = BloodDonationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "d3-softwares.BloodDonationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BloodDonation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184976061DDC23D800FDCAD5 /* Build configuration list for PBXProject "BloodDonation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184976361DDC23D900FDCAD5 /* Debug */,
+				184976371DDC23D900FDCAD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184976381DDC23D900FDCAD5 /* Build configuration list for PBXNativeTarget "BloodDonation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184976391DDC23D900FDCAD5 /* Debug */,
+				1849763A1DDC23D900FDCAD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1849763B1DDC23D900FDCAD5 /* Build configuration list for PBXNativeTarget "BloodDonationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1849763C1DDC23D900FDCAD5 /* Debug */,
+				1849763D1DDC23D900FDCAD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1849763E1DDC23D900FDCAD5 /* Build configuration list for PBXNativeTarget "BloodDonationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1849763F1DDC23D900FDCAD5 /* Debug */,
+				184976401DDC23D900FDCAD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184976031DDC23D700FDCAD5 /* Project object */;
+}

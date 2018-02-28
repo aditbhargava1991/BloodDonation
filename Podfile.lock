@@ -1,0 +1,23 @@
+PODS:
+  - CCHMapClusterController (1.7.0)
+  - HCSStarRatingView (1.4.5)
+  - MFSideMenu (0.5.5)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+
+DEPENDENCIES:
+  - CCHMapClusterController
+  - HCSStarRatingView (~> 1.4.5)
+  - MFSideMenu
+  - SDWebImage (~> 3.7)
+
+SPEC CHECKSUMS:
+  CCHMapClusterController: d8cd12cd5682ec6cd76d911ac7198f981b6cc1b8
+  HCSStarRatingView: bff3f89314d3b5013ce826ea11897d3129ff6b8c
+  MFSideMenu: 268122e6894f2747fc3a2b48578100b232506c60
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+
+PODFILE CHECKSUM: 5418c8a4601f91e9d5f14624bcad177730851f70
+
+COCOAPODS: 1.0.1
